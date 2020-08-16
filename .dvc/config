@@ -1,4 +1,6 @@
 [core]
-    remote = myremote
+    remote = remote
 ['remote "myremote"']
     url = s3://dvc-public/remote/cml_example
+['remote "remote"']
+    url = s3://ocean-env-test/dvc-test
